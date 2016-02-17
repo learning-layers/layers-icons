@@ -1,7 +1,7 @@
 {
   "name": "layers-icons",
-  "version": "0.1.0",
-  "description": "Some SVG-based icons for Layers, to be used by Web Components",
+  "version": "1.0.0",
+  "description": "Some SVG-based icons for Layers, to be used for Polymer Web Components",
   "homepage": "https://learning-layers.github.io/layers-icons",
   "main": "layers-icons.html",
   "authors": [
@@ -18,13 +18,15 @@
   ],
   "keywords": [
     "web-component",
-    "web-components",
     "polymer",
     "icons"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#~0.5.4",
-    "core-icon": "Polymer/core-icon#~0.5.4",
-    "core-iconset-svg": "Polymer/core-iconset-svg#~0.5.4"
+    "polymer": "Polymer/polymer#^1.2.0",
+    "iron-icon": "PolymerElements/iron-icon#^1.0.0",
+    "iron-iconset-svg": "PolymerElements/iron-iconset-svg#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0"
   }
 }
